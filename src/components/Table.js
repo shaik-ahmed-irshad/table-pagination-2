@@ -90,7 +90,7 @@ const Table = () => {
           </tbody>
         </table>
       </div>
-      <div>
+      <div className="center">
           <button onClick={() => previousPage()} disabled={!canPreviousPage}>
             {'<<'}
             </button>
